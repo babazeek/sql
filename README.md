@@ -1,4 +1,4 @@
-# Data Cleaning in sql
+# b) Data Cleaning in sql
 For this project, I worked on cleaning a real estate dataset stored in SQL Server to improve data quality and consistency. The dataset contained various issues such as inconsistent date formats, missing addresses, duplicate records, and improperly formatted data. The cleaning process involved a structured approach using SQL queries to transform and standardize the data.
 
 # Process and Steps Taken:
