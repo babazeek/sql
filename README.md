@@ -27,6 +27,8 @@ To streamline reporting, I created SQL views for key insights, allowing for quic
 # Outcome:
 The project provided valuable insights into the impact of COVID-19 on different populations, revealing patterns in infections, deaths, and vaccinations. The use of SQL Server for data exploration made it possible to extract meaningful trends efficiently. These insights can help in making data-driven decisions related to public health and policy responses
 
+
+
 # b) Data Cleaning in sql
 For this project, I worked on cleaning a real estate dataset stored in SQL Server to improve data quality and consistency. The dataset contained various issues such as inconsistent date formats, missing addresses, duplicate records, and improperly formatted data. The cleaning process involved a structured approach using SQL queries to transform and standardize the data.
 
