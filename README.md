@@ -27,4 +27,4 @@ Some columns contained unnecessary or redundant data. I reviewed the dataset and
 After cleaning, the dataset was more accurate, consistent, and structured, allowing for better reporting and analysis. The transformations improved data integrity, making it easier to use in business decision-making and further analysis. This structured approach demonstrates how SQL Server can be leveraged to automate and streamline data cleaning efficiently. 
 
 # Data set
-[Dataset]()
+[Dataset](https://github.com/babazeek/sql/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
