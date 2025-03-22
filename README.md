@@ -60,5 +60,5 @@ After cleaning, the dataset was more accurate, consistent, and structured, allow
 # Data set
 [Nashville Housing Data](https://github.com/babazeek/sql/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
 [Nashville Housing Data](https://github.com/babazeek/sql/blob/main/Covid_Deaths.xlsx)
-[Covid_Vaccines](https://github.com/babazeek/sql/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+[Covid_Vaccinations](https://github.com/babazeek/sql/blob/main/Covid_vaccinations.xlsx)
 
