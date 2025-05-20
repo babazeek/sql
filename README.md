@@ -62,8 +62,6 @@ After cleaning, the dataset was more accurate, consistent, and structured, allow
 [Nashville Housing Data](https://github.com/babazeek/sql/blob/main/Covid_Deaths.xlsx)
 [Covid_Vaccinations](https://github.com/babazeek/sql/blob/main/Covid_vaccinations.xlsx)
 
-# c) Blinkit Grocery Sales Data Cleaning and Performance Analysis Project in SQL
-
 
 # 🧺 Blinkit Grocery SQL Data Cleaning & Analysis
 
