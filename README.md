@@ -193,6 +193,11 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 Now that the data is clean and metrics are ready, the next phase involves building interactive dashboards in Power BI to visually present these insights for decision-making.
 
 
+# Data set
+[Blinkit Data](https://github.com/babazeek/sql/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+[Blinkit Queries](https://github.com/babazeek/sql/blob/main/Covid_Deaths.xlsx)
+[Covid_Vaccinations](https://github.com/babazeek/sql/blob/main/Covid_vaccinations.xlsx)
+
 
 
 
