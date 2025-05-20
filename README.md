@@ -194,7 +194,7 @@ Now that the data is clean and metrics are ready, the next phase involves buildi
 
 
 # Data set
-[Blinkit Data](https://github.com/babazeek/sql/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx)
+[Blinkit Data](BlinkIT Grocery Data.csv)
 [Blinkit Queries](https://github.com/babazeek/sql/blob/main/Covid_Deaths.xlsx)
 [Covid_Vaccinations](https://github.com/babazeek/sql/blob/main/Covid_vaccinations.xlsx)
 
