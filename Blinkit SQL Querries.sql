@@ -1,0 +1,125 @@
+
+
+
+SELECT * FROM [BlinkIT Grocery Data]
+
+SELECT COUNT(*) FROM [BlinkIT Grocery Data]
+
+/* 
+
+Cleaning the Item_Fat_Content column to have entries of Regular and Low Fat 
+
+*/
+
+
+UPDATE [BlinkIT Grocery Data]
+SET Item_Fat_Content = 
+CASE 
+WHEN Item_Fat_Content IN ('LF', 'low fat') THEN 'Low Fat'
+WHEN Item_Fat_Content = 'reg' THEN 'Regular'
+ELSE Item_Fat_Content
+END
+
+/* Confirming Low Fat and Regular entries */
+
+SELECT DISTINCT (Item_Fat_Content) FROM [BlinkIT Grocery Data]
+
+/* Total Sales Caluculation */
+
+SELECT CAST(SUM(Total_Sales)/1000000 AS decimal (10,2))  AS Total_Sales_Millions 
+FROM [BlinkIT Grocery Data] 
+
+/* Average Sales Calculation */
+
+SELECT CAST(AVG(Total_Sales) AS Decimal (10,0)) AS Avg_Sales FROM [BlinkIT Grocery Data]
+
+/* Number of items  */
+
+SELECT COUNT(*) AS No_of_Items FROM [BlinkIT Grocery Data]
+
+/* Average Rating */
+
+SELECT CAST(AVG(Rating)AS decimal(10,2)) AS Avg_Rating FROM [BlinkIT Grocery Data]
+
+
+/*  
+	1.Total Sales by Fat Content
+	2.Ratings by Fat Content
+	3.Average Sales by Fat Content
+	4.Count by Fat Content
+*/
+
+SELECT Item_Fat_Content , 
+		CAST(SUM (Total_sales)/1000 AS decimal(10,2)) AS  Total_Sales_Thousands,
+		CAST(AVG(Rating)AS decimal(10,2)) AS Avg_Rating,
+		CAST(AVG(Total_Sales) AS Decimal (10,0)) AS Avg_Sales,
+		COUNT(*) AS No_of_Items
+FROM [BlinkIT Grocery Data]
+Group By Item_Fat_Content
+Order By Total_Sales_Thousands DESC
+
+
+/* Total Sales by Item Type */
+
+SELECT Top 5 Item_Type, 
+	CAST(SUM(Total_Sales) AS decimal(10,2)) AS Total_Sales, 
+	CAST(AVG(Rating)AS decimal(10,2)) AS Avg_Rating,
+	CAST(AVG(Total_Sales) AS Decimal (10,0)) AS Avg_Sales,
+	COUNT(*) AS No_of_Items
+FROM [BlinkIT Grocery Data]
+GROUP BY Item_Type
+ORDER BY Total_Sales DESC
+
+/*Fat Content by outlet for Total Sales */
+
+SELECT  Outlet_Location_Type , Item_Fat_Content, 
+	CAST(SUM (Total_Sales)AS decimal(10,2)) AS Total_Sales,
+	CAST(AVG(Rating)AS decimal(10,2)) AS Avg_Rating,
+	CAST(AVG(Total_Sales) AS Decimal (10,0)) AS Avg_Sales,
+	COUNT(*) AS No_of_Items
+FROM [BlinkIT Grocery Data]
+GROUP BY Item_Fat_Content, Outlet_Location_Type
+ORDER BY Total_Sales ASC
+
+
+/* Total Sales by Outlet Establishment Year*/
+
+SELECT Outlet_Establishment_Year, 
+CAST(SUM(Total_Sales)AS decimal(10,2)) AS Total_Sales
+FROM [BlinkIT Grocery Data]
+GROUP BY Outlet_Establishment_Year
+ORDER BY Total_Sales ASC
+
+/* % of Sales by Outlet Size */
+
+SELECT Outlet_Size,
+	CAST(SUM(Total_Sales) AS decimal(10,2)) AS Total_Sales,
+	CAST((SUM(Total_Sales)*100.0/SUM(SUM(Total_Sales)) OVER ()) AS Decimal(10,2)) AS Sales_Percentage
+FROM [BlinkIT Grocery Data]
+GROUP BY Outlet_Size
+ORDER BY Total_Sales DESC;
+
+
+
+/* Sales by Outlet Location*/
+
+SELECT Outlet_Location_Type, 
+	CAST(SUM(Total_sales)AS decimal(10,2)) AS Total_Sales,
+	CAST(AVG(Rating)AS decimal(10,2)) AS Avg_Rating,
+	CAST(AVG(Total_Sales) AS Decimal (10,0)) AS Avg_Sales,
+	COUNT(*) AS No_of_Items
+FROM [BlinkIT Grocery Data]
+GROUP BY Outlet_Location_Type
+ORDER BY Total_Sales DESC
+
+/* All metrics by Outlet Type */
+
+SELECT Outlet_Type,
+	CAST(SUM(Total_Sales) AS decimal(10,2)) AS Total_Sales,
+	CAST((SUM(Total_Sales)*100.0/SUM(SUM(Total_Sales)) OVER ()) AS Decimal(10,2)) AS Sales_Percentage,
+	CAST(AVG(Rating)AS decimal(10,2)) AS Avg_Rating,
+	CAST(AVG(Total_Sales) AS decimal (10,0)) AS Avg_Sales,
+	COUNT(*) AS No_of_Items
+FROM [BlinkIT Grocery Data]
+GROUP BY Outlet_Type
+ORDER BY Total_Sales DESC
