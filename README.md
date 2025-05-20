@@ -63,19 +63,18 @@ After cleaning, the dataset was more accurate, consistent, and structured, allow
 [Covid_Vaccinations](https://github.com/babazeek/sql/blob/main/Covid_vaccinations.xlsx)
 
 # c) Blinkit Grocery Sales Data Cleaning and Performance Analysis Project in SQL
----
+
 
 # 🧺 Blinkit Grocery SQL Data Cleaning & Analysis
 
 **🎯 Project Goal:** Clean raw retail data and generate key business insights using SQL for Power BI dashboards.
 
----
+
 
 ## 📌 Project Overview
 
 This project focuses on cleaning and analyzing grocery retail data using SQL. The ultimate goal is to create a clean dataset for visualization in Power BI. The data cleaning process ensures consistency and reliability, while the analysis generates key metrics such as total sales, average ratings, and outlet performance.
 
----
 
 ## 📊 Step-by-Step Breakdown (15 Steps)
 
@@ -87,15 +86,11 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To understand its structure and identify which fields are useful or messy.
 **Outcome:** You become familiar with columns like item type, outlet info, sales, and ratings. This informs how to clean and analyze the data effectively.
 
----
-
 ### ✅ Step 2: Count Total Records
 
 **What:** Determine how many entries are in the dataset.
 **Why:** To check data completeness and estimate its size.
 **Outcome:** You confirm the dataset is intact and robust enough for analysis. This ensures the results you generate will be reliable.
-
----
 
 ### ✅ Step 3: Standardize Fat Content Labels
 
@@ -103,15 +98,11 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** Inconsistent naming creates errors in grouping and reporting.
 **Outcome:** You eliminate redundancy and unify labels, enabling cleaner analysis and consistent reporting in Power BI.
 
----
-
 ### ✅ Step 4: Confirm Cleaned Fat Content Data
 
 **What:** Check the cleaned `Item_Fat_Content` column.
 **Why:** To verify that only "Low Fat" and "Regular" are present.
 **Outcome:** You confirm that the cleaning was successful, and future queries using this field will return accurate, consolidated results.
-
----
 
 ### ✅ Step 5: Calculate Total Sales
 
@@ -119,15 +110,11 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To understand the overall revenue.
 **Outcome:** You get a single, readable figure (e.g., in millions) that represents total business performance — useful for management summaries.
 
----
-
 ### ✅ Step 6: Find Average Sales
 
 **What:** Calculate the average sales per item/entry.
 **Why:** To measure the typical transaction value.
 **Outcome:** You identify how much each item contributes on average, offering insight into pricing or promotion effectiveness.
-
----
 
 ### ✅ Step 7: Count Total Items or Orders
 
@@ -135,7 +122,6 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To understand transaction volume.
 **Outcome:** You gauge the scale of operations and prepare for average-based calculations or comparisons.
 
----
 
 ### ✅ Step 8: Calculate Average Rating
 
@@ -143,7 +129,6 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To assess general customer satisfaction.
 **Outcome:** You get a summary metric that reflects product quality and customer experience across the dataset.
 
----
 
 ### ✅ Step 9: Analyze Sales by Fat Content
 
@@ -151,7 +136,6 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To identify customer preferences and high-performing categories.
 **Outcome:** You uncover which fat content group drives more sales and better ratings — insights that inform stocking and marketing.
 
----
 
 ### ✅ Step 10: Analyze Sales by Product Type
 
@@ -159,7 +143,6 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To identify best-selling product types.
 **Outcome:** You determine which items generate the most revenue. This can guide product promotions, inventory planning, and expansion.
 
----
 
 ### ✅ Step 11: Compare Sales by Location and Fat Content
 
@@ -167,7 +150,6 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To understand geographic trends in consumer preference.
 **Outcome:** You create a pivot-style summary showing what sells best in which locations — ideal for geo-targeted strategies.
 
----
 
 ### ✅ Step 12: Track Sales by Outlet Establishment Year
 
@@ -175,7 +157,6 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To explore performance across different outlet ages.
 **Outcome:** You see whether older or newer outlets generate more sales, offering insight into outlet lifecycle performance.
 
----
 
 ### ✅ Step 13: Compute Sales % by Outlet Size
 
@@ -183,7 +164,6 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To measure the sales impact of small, medium, and large outlets.
 **Outcome:** You visualize which store sizes bring in more revenue — informing future expansion or investment plans.
 
----
 
 ### ✅ Step 14: Analyze Sales by Outlet Location Type
 
@@ -191,7 +171,6 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To assess which regions perform best overall.
 **Outcome:** You understand which areas (urban, semi-urban, rural) are most profitable — supporting location-based planning.
 
----
 
 ### ✅ Step 15: Get Full Metrics by Outlet Type
 
@@ -215,7 +194,7 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 
 Now that the data is clean and metrics are ready, the next phase involves building interactive dashboards in Power BI to visually present these insights for decision-making.
 
----
+
 
 
 
