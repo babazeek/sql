@@ -194,7 +194,7 @@ Now that the data is clean and metrics are ready, the next phase involves buildi
 
 
 # Data set
-[Blinkit Data](BlinkIT Grocery Data.csv)
+[Blinkit Data](https://github.com/babazeek/sql/blob/f64e09af56f915ffa81f399273d22c94eb9c52fd/BlinkIT%20Grocery%20Data.csv)
 [Blinkit Queries](https://github.com/babazeek/sql/blob/main/Covid_Deaths.xlsx)
 [Covid_Vaccinations](https://github.com/babazeek/sql/blob/main/Covid_vaccinations.xlsx)
 
