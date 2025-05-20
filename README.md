@@ -78,7 +78,7 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 
 ## 📊 Step-by-Step Breakdown (15 Steps)
 
----
+
 
 ### ✅ Step 1: Explore the Raw Dataset
 
@@ -178,7 +178,7 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 **Why:** To evaluate how different outlet types perform across multiple dimensions.
 **Outcome:** You build a well-rounded performance profile per outlet type. This summary is perfect for Power BI dashboards and executive reporting.
 
----
+
 
 ## 🧠 Key Skills Demonstrated
 
@@ -188,7 +188,7 @@ This project focuses on cleaning and analyzing grocery retail data using SQL. Th
 * Pivot-style analysis
 * Dashboard-ready metrics for Power BI
 
----
+
 
 ## 📌 Next Step: Power BI Visualization
 
