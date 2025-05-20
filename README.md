@@ -63,11 +63,11 @@ After cleaning, the dataset was more accurate, consistent, and structured, allow
 [Covid_Vaccinations](https://github.com/babazeek/sql/blob/main/Covid_vaccinations.xlsx)
 
 
-# 🧺 Blinkit Grocery SQL Data Cleaning & Analysis
+
+
+# c)🧺 Blinkit Grocery SQL Data Cleaning & Analysis
 
 **🎯 Project Goal:** Clean raw retail data and generate key business insights using SQL for Power BI dashboards.
-
-
 
 ## 📌 Project Overview
 
