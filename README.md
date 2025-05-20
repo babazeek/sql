@@ -194,7 +194,10 @@ Now that the data is clean and metrics are ready, the next phase involves buildi
 
 
 # Data set
+
 [Blinkit Data](https://github.com/babazeek/sql/blob/f64e09af56f915ffa81f399273d22c94eb9c52fd/BlinkIT%20Grocery%20Data.csv)
+
+
 [Blinkit Queries](https://github.com/babazeek/sql/blob/6a2b3458d65bc67d435210d77a6f0f0342f979ed/Blinkit%20SQL%20Querries.sql)
 
 
